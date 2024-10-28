@@ -5,7 +5,7 @@ import random
 random_numbers = [random.randint(1, 100) for _ in range(10)] 
 print("Original list:", random_numbers)
 
-index = 0
+x = 0
 while x < len(random_numbers):
     if random_numbers[x] % 2 == 0: 
         random_numbers.pop(x)
