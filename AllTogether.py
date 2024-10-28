@@ -6,9 +6,9 @@ random_numbers = [random.randint(1, 100) for _ in range(10)]
 print("Original list:", random_numbers)
 
 index = 0
-while index < len(random_numbers):
-    if random_numbers[index] % 2 == 0: 
-        random_numbers.pop(index)
+while x < len(random_numbers):
+    if random_numbers[x] % 2 == 0: 
+        random_numbers.pop(x)
     else:
-        index += 1
+        x += 1
     print("Remaining odd numbers:", random_numbers)
